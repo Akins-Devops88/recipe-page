@@ -1,0 +1,81 @@
+* {
+    /* global reset */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(201, 154, 97);
+    color: #fff;
+    letter-spacing: 0.9px;
+}
+
+main {
+    border: 3px solid #fff;
+    background-color: rgb(116, 67, 7);
+    padding: 1.2rem;
+    width: 50%;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    /* text-align: center; */
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.img-container {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+img {
+    border: 1px solid #fff;
+    margin: 0 auto;
+    border-radius: 0.4rem;
+    width: 50%;
+}
+
+strong {
+    margin: 1rem 0;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+}
+
+h3 {
+    margin: 1rem;
+}
+
+ul, ol {
+    padding: 1rem;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol li {
+    margin: 0.8rem 0rem;
+}
+
+a:link, a:visited {
+    color: #fff;
+}
+
+a:hover {
+    font-weight: 500;
+}
+
+.ingredient-container {
+    display: flex;
+}
+
+#notes {
+    border: 1px dotted #fff;
+    padding: 1.5rem;
+    margin: 3rem 0rem 0rem 0rem;
+}
